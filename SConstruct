@@ -72,7 +72,7 @@ if linux:
 env.Append(CCFLAGS=["-I" + os.getenv("HOME") + "/local/include/",
                     "-fPIC"])
                     
-                    
+# AttributeError: 'NoneType' object has no attribute 'split'                 
 #env.Append(LINKFLAGS=["-L%s" % x
 #                        for x in os.getenv("LD_LIBRARY_PATH").split(":")
 #                        if x != ""])
